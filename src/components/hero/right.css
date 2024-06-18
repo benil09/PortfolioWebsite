@@ -1,0 +1,115 @@
+
+
+.text p{
+    position: inherit;
+    font-size: 18px;
+  
+    line-height: 3.6;
+    margin-bottom: 20px;
+
+
+    
+   
+
+  
+}
+
+.text{
+    
+color: aliceblue;
+position: absolute;
+top: 20%;
+left: 10%;
+
+
+
+
+
+  
+}
+.text h1{
+    font-size: 5rem;
+    color: #069862;
+    line-height: 1.1;
+}
+
+
+.button a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #069862;
+    padding: 10px 7%;
+
+    
+    margin: 1rem;
+    border-radius: 2rem;
+    transition: 0.2s ease-in-out all;
+}
+
+.button .resume{
+    background:#069862;
+    
+}
+.button .resume:hover{
+    background:transparent;
+
+
+}
+.button .connect:hover{
+    background:#069862;
+
+
+}
+
+.button a:hover{
+   
+
+}
+
+
+.button .resume{
+    background: #069862;
+    color: aliceblue;
+}
+
+.social{
+   
+    display: flex;
+    flex-direction: column;
+  
+    gap: 0.8rem;
+    position:absolute;
+    left:7%;
+    bottom: 20%;
+    
+
+
+
+}
+.social a{
+    margin: 0 2%;
+    font-size: 1.5rem;
+    color:  #D9EDE1;
+    transition: 0.2s ease-in-out all;
+    
+}
+
+.social a:hover{
+    color: #069862;
+    transform: translateX(2px);
+
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES)===============================  */
+@media screen and (max-width:600px){
+    .text{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+    .social{
+        display: none;
+    }
+    
+    
+}

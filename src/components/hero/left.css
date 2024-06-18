@@ -1,0 +1,77 @@
+.outer{
+
+    height: 400px;
+    width: 400px;
+    border: 2px solid #D9EDE1;
+    border-radius: 50%;
+}
+
+
+.outer .middle{
+
+    height: 380px;
+    width: 380px;
+    margin: 2.2%;
+    border: 2px solid #069862;
+    border-radius: 50%;
+
+}
+.outer .inner{
+
+    height: 360px;
+    width: 360px;
+    margin: 2.4%;
+    border: 2px solid green;
+    border-radius: 50%;
+
+}
+
+img{
+    height: 360px;
+    width: 360px;
+    object-fit: contain;
+    border-radius: 50%;
+
+}
+
+
+.image{
+    /* height: auto;
+    width: 40vw; */
+    position: absolute;
+    right: 15%;
+    bottom:36%;
+   
+}
+
+
+
+
+.scroll{
+    text-decoration: none;
+    color: #D9EDE1;
+    position: absolute;
+    right:10%;
+    bottom: 20%;
+    transform: rotate(90deg);
+    transition: 0.2s ease-in-out all;
+    font-weight: 200;
+}
+
+.scroll:hover{
+    color: #069862;
+}
+
+
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES)===============================  */
+@media screen and (max-width:600px){
+    .scroll{
+        display: none;
+    }
+    .image{
+        position:absolute;
+        bottom: 5%;
+    }
+}
+
